@@ -32,7 +32,7 @@ Find out the distribution of employees by the education field
 Give a bar chart for the number of married and unmarried employees  
 Build up a logistic regression model to predict which employees are likely to attrite.  
 
-[Please follow this URL to my proposed solution]()  
+[Please follow this URL to my proposed solution](https://github.com/samuel-ntsua/Machine_Learning_with_Python/blob/b8cca00c8289dc373d1b0619b8238738c9a392e9/Machine_Learning_Project_mercedes_sntsua.ipynb)  
 
 ```Python pandas
 ## We can get the dataset directly from github <br>
