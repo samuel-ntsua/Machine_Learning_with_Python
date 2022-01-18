@@ -34,7 +34,7 @@ Build up a logistic regression model to predict which employees are likely to at
 
 [Please follow this URL to my proposed solution]()  
 
-```pandas
+```Python pandas
 ## We can get the dataset directly from github <br>
 ## We just need the path to the raw data location. To do that, we add ""?raw=true" to the url link.
 import pandas as pd
