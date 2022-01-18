@@ -32,4 +32,19 @@ Find out the distribution of employees by the education field
 Give a bar chart for the number of married and unmarried employees  
 Build up a logistic regression model to predict which employees are likely to attrite.  
 
-[My Solution]()
+[Please follow this URL to my proposed solution]()  
+
+```pandas
+## We can get the dataset directly from github <br>
+## We just need the path to the raw data location. To do that, we add ""?raw=true" to the url link.
+import pandas as pd
+
+train_path ="https://github.com/Simplilearn-Edu/Machine-Learning--Projects/blob/master/Projects/Projects%20for%20Submission/Project%201%20-%20Mercedes-Benz%20Greener%20Manufacturing/Dataset%20for%20the%20project/train.zip?raw=true"
+test_path ="https://github.com/Simplilearn-Edu/Machine-Learning--Projects/blob/master/Projects/Projects%20for%20Submission/Project%201%20-%20Mercedes-Benz%20Greener%20Manufacturing/Dataset%20for%20the%20project/test.zip?raw=true"
+
+## load the dataset
+
+mbtrain_df = pd.read_csv(train_path, compression='zip', header=0, sep=',', quotechar='"')
+mbtest_df = pd.read_csv(test_path, compression='zip', header=0, sep=',', quotechar='"')
+
+```
