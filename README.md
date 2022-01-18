@@ -1,36 +1,30 @@
+Project Name - Mercedes-Benz Greener Manufacturing  
 
-Background of Problem Statement:  
-
-IBM HR Analytics Employee Attrition Modeling.  
 DESCRIPTION  
-IBM is an American MNC operating in around 170 countries with major business vertical as computing, software, and hardware.  
-Attrition is a major risk to service-providing organizations where trained and experienced people are the assets of the company.  
-The organization would like to identify the factors which influence the attrition of employees.  
 
-Data Dictionary  
-Age: Age of employee  
-Attrition: Employee attrition status  
-Department: Department of work  
-DistanceFromHome  
-Education: 1-Below College; 2- College; 3-Bachelor; 4-Master; 5-Doctor;  
-EducationField  
-EnvironmentSatisfaction: 1-Low; 2-Medium; 3-High; 4-Very High;  
-JobSatisfaction: 1-Low; 2-Medium; 3-High; 4-Very High;  
-MaritalStatus  
-MonthlyIncome  
-NumCompaniesWorked: Number of companies worked prior to IBM  
-WorkLifeBalance: 1-Bad; 2-Good; 3-Better; 4-Best;  
-YearsAtCompany: Current years of service in IBM  
+Reduce the time a Mercedes-Benz spends on the test bench.  
 
-Analysis Task:  
+**Problem Statement Scenario:** 
+Since the first automobile, the Benz Patent Motor Car in 1886, Mercedes-Benz has stood for important automotive innovations.  
+These include the passenger safety cell with the crumple zone, the airbag, and intelligent assistance systems. Mercedes-Benz applies for nearly 2000 patents per year,  
+making the brand the European leader among premium carmakers. Mercedes-Benz cars are leaders in the premium car industry.  
+With a huge selection of features and options, customers can choose the customized Mercedes-Benz of their dreams.  
 
-Exploratory data analysis  
-Find the age distribution of employees in IBM  
-Explore attrition by age  
-Explore data for Left employees  
-Find out the distribution of employees by the education field  
-Give a bar chart for the number of married and unmarried employees  
-Build up a logistic regression model to predict which employees are likely to attrite.  
+To ensure the safety and reliability of every unique car configuration before they hit the road, Daimler's engineers have developed a robust testing system.  
+As one of the world's biggest manufacturers of premium cars, safety and efficiency are paramount on Daimler's production lines.  
+However, optimizing the speed of their testing system for many possible feature combinations is complex and time-consuming without a powerful algorithmic approach.  
+
+You are required to reduce the time that cars spend on the test bench. Others will work with a dataset representing different permutations of features in  
+a Mercedes-Benz car to predict the time it takes to pass testing. Optimal algorithms will contribute to faster testing, resulting in lower carbon dioxide  
+emissions without reducing Daimler's standards.  
+
+**Following actions should be performed:**  
+
+-If for any column(s), the variance is equal to zero, then you need to remove those variable(s).  
+-Check for null and unique values for test and train sets.  
+-Apply label encoder.  
+-Perform dimensionality reduction.  
+-Predict your test_df values using xgboost.  
 
 [Please follow this URL to my proposed solution](https://github.com/samuel-ntsua/Machine_Learning_with_Python/blob/b8cca00c8289dc373d1b0619b8238738c9a392e9/Machine_Learning_Project_mercedes_sntsua.ipynb)  
 
